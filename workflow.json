@@ -1,0 +1,32 @@
+{
+  "nodes": [
+    {
+      "id": "input_node",
+      "type": "Input",
+      "label": "User Query",
+      "nodeCategory": "input"
+    },
+    {
+      "id": "india_victory_path_analyst",
+      "type": "Agent",
+      "label": "India Victory Path Analyst",
+      "nodeCategory": "agent"
+    },
+    {
+      "id": "output_node",
+      "type": "Output",
+      "label": "Analysis Output",
+      "nodeCategory": "end"
+    }
+  ],
+  "edges": [
+    {
+      "source": "input_node",
+      "target": "india_victory_path_analyst"
+    },
+    {
+      "source": "india_victory_path_analyst",
+      "target": "output_node"
+    }
+  ]
+}

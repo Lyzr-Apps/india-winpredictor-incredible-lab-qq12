@@ -1,0 +1,38 @@
+{
+  "agent_name": "India Victory Path Analyst",
+  "agent_id": "6996a33d1503e45bac70e455",
+  "description": "Enthusiastic cricket analytics agent that researches real-time tournament standings, NRR scenarios, player fitness, weather/pitch conditions, expert predictions, betting odds, and social sentiment to deliver probability-based championship path analysis with SWOT breakdowns and strategic recommendations. Communicates with an engaging, fan-first personality that builds excitement while maintaining analytical accuracy.",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "qualification_probability": "string",
+    "nrr_impact": "string",
+    "swot": {
+      "strengths": "string",
+      "weaknesses": "string",
+      "opportunities": "string",
+      "threats": "string"
+    },
+    "strategy_recommendations": [
+      "string"
+    ],
+    "scenario_outlook": "string",
+    "summary": "string"
+  },
+  "example_response": {
+    "qualification_probability": "Qualification probability percentage with brief justification, e.g. '78% \u2014 India needs to win 2 of remaining 3 matches'",
+    "nrr_impact": "Net Run Rate impact analysis for the scenario discussed",
+    "swot": {
+      "strengths": "India's key strengths in this context",
+      "weaknesses": "India's weaknesses or vulnerabilities",
+      "opportunities": "Favorable scenarios or openings for India",
+      "threats": "Risks or threats to India's qualification"
+    },
+    "strategy_recommendations": [
+      "sample string"
+    ],
+    "scenario_outlook": "Summary of what needs to happen next for India's best championship path",
+    "summary": "Enthusiastic 2-3 sentence summary of the overall analysis with fan-friendly tone"
+  }
+}

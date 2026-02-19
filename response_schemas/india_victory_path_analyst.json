@@ -1,0 +1,20 @@
+{
+  "agent_name": "India Victory Path Analyst",
+  "agent_id": "6996a33d1503e45bac70e455",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "schema": {
+    "qualification_probability": "string — e.g. '78% — India needs to win 2 of remaining 3 matches'",
+    "nrr_impact": "string — Net Run Rate impact analysis",
+    "swot": {
+      "strengths": "string",
+      "weaknesses": "string",
+      "opportunities": "string",
+      "threats": "string"
+    },
+    "strategy_recommendations": "array of strings — 2-4 strategic recommendations",
+    "scenario_outlook": "string — what needs to happen next",
+    "summary": "string — enthusiastic 2-3 sentence fan-friendly summary"
+  }
+}
